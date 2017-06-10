@@ -1,0 +1,208 @@
+﻿
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 1px solid #c0c0c0;
+    padding: .75em 0;
+    margin-bottom: 1.5em;
+     background-color: #f0f6f6;
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+    padding-left: 1.5em;
+}
+
+.navbar {
+    border-radius: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* Styles go here */
+
+li.active a {
+    color: red;
+}
+
+.table th:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.table .action-column:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.table tfoot .pagination {
+    float: right;
+    margin: 0;
+}
+
+    .table tfoot .pagination li {
+        cursor: pointer;
+    }
+
+.table tfoot select {
+    width: 90px;
+    float: right;
+    margin-right: 8px;
+}
+
+.customDim {
+    width: 50%;
+}
+
+.custom-dimensions {
+    width: 25%;
+}
+
+    .custom-dimensions p {
+        padding: 2%;
+    }
+
+textarea {
+    resize: none;
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
+
+.right {
+    float: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.search-filter-list .fa.fa-times {
+    margin-left: 5px;
+}
+
+.search-filter-list a.list-item-block {
+    display: block
+}
+
+.search-filter-list .badge {
+    background-color: #777;
+}
+
+.modalContainer {
+    padding: 0px 20px;
+}
+
+    .modalContainer a {
+        word-wrap: break-word;
+    }
+
+.app-modal-window .modal-dialog {
+    width: 1200px;
+}
+
+.overlay {
+    background: #ffffff;
+    color: #666666;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-top: 25%;
+    opacity: 0.5;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+}
+
+.partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
+
+.list-group-item {
+    min-height: 40px;
+}
+
+div[ui-view=content] {
+    padding-bottom: 60px;
+    padding-top: 5%;
+}
+
+footer {
+    position: fixed;
+    background-color: #2c3e50;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+    footer p {
+        color: #fff;
+        padding: 15px 0px;
+        margin-bottom: 0px;
+    }
+
+#sidebar-wrapper {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+    #sidebar-wrapper a {
+        color: #fff;
+    }
+
+.paginationclass {
+    margin: 19px 28px;
+}
+
+    .paginationclass span {
+        margin-left: 15px;
+        display: inline-block;
+    }
+
+.pagination-controle li {
+    display: inline-block;
+}
+
+.pagination-controle button {
+    font-size: 12px;
+    margin-top: -26px;
+    cursor: pointer;
+}
+
+.pagination {
+    margin: 5px 12px;
+}
+
+    .pagination > li > span {
+        padding: 7px;
+    }
+
+.adjust-padding > .pagination {
+    margin: 5px -10 !important;
+}

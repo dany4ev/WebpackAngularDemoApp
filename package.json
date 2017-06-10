@@ -1,0 +1,41 @@
+{
+    "name": "webpackangulardemoapp",
+    "version": "0.0.0",
+    "description": "Webpack Angular Demo App",
+    "main": "app.js",
+    "author": {
+        "name": "M. Danish Farman"
+    },
+    "private": true,
+    "scripts": {
+        "start": "npm run start-client",
+        "start-client": "./node_modules/.bin/webpack-dev-server --inline --debug --devtool eval --hot --content-base app",
+        "build": "./node_modules/.bin/webpack --optimize-minimize --optimize-occurence-order --progress"
+    },
+    "dependencies": {
+        "angular": "^1.6.3",
+        "angular-messages": "^1.6.3",
+        "angular-spinners": "^3.1.2",
+        "angular-ui-router": "^0.4.2",
+        "bootstrap": "^3.3.7",
+        "jquery": "~3.2.1",
+        "lodash": "^4.17.2",
+        "moment": "^2.18.1",
+        "pluralize": "^4.0.0",
+        "restangular": "^1.5.2",
+        "ui-bootstrap": "^0.1.10",
+        "ui-router": "^1.0.0-alpha0",
+        "uuid": "^3.0.1"
+    },
+    "devDependencies": {
+        "webpack": "^1.14.0",
+        "css-loader": "^0.26.1",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.24.1",
+        "ng-annotate-loader": "^0.2.0",
+        "style-loader": "^0.13.1",
+        "webpack-dev-server": "^1.16.2",
+        "file-loader": "^0.9.0",
+        "url-loader": "^0.5.7"
+    }
+}
