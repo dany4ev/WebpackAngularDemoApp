@@ -4,8 +4,7 @@ var webpack = require('webpack')
 
 var path = require('path')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-var jsFolderName = 'build'
-var htmlPath = jsFolderName + '/'
+var htmlPath = '/build/'
 
 module.exports = {
     context: path.join(__dirname, '/'),

@@ -10,7 +10,7 @@
     "scripts": {
         "start": "npm run start-client",
         "start-client": "./node_modules/.bin/webpack-dev-server --inline --debug --devtool eval --hot --content-base app",
-        "build": "./node_modules/.bin/webpack --optimize-minimize --optimize-occurence-order --progress"
+        "build": "./node_modules/.bin/webpack --config webpack.config.js --optimize-minimize --optimize-occurence-order --progress"
     },
     "dependencies": {
         "angular": "^1.6.3",
